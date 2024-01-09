@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
-      <audio id="myAudio" loop autoplay style="display: none">
-        <source src="Zara Sa - Lofi Remix.mp3" type="audio/mp3" />
-        Your browser does not support the audio element.
-      </audio>
-
       <div>
         <h1 class="header_text">Would you like to go out with me? &#128522;</h1>
       </div>
@@ -30,6 +27,10 @@
         >
           No
         </button>
+        <audio id="myAudio" loop autoplay style="display: none">
+          <source src="Zara Sa - Lofi Remix.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
 
         <script>
           document.getElementById("myAudio").play();

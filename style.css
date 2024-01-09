@@ -4,6 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     background-image: linear-gradient(to right, #ff1c6a, #ff0085, #f900a4, #e600c7, #c512eb);
+    overflow: hidden;
 
 }
 
@@ -93,4 +94,28 @@ p a {
     font-size: 20px;
     font-weight: 600;
     opacity: 0.25;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #noButton,
+    #yesButton {
+        position: static;
+        margin: 10px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    p {
+        margin-left: 0;
+        text-align: center;
+    }
 }
