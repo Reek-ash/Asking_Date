@@ -97,25 +97,9 @@ p a {
 }
 
 @media only screen and (max-width: 768px) {
-
-    #noButton,
-    #yesButton {
-        position: static;
-        margin: 10px;
-    }
-
-    .buttons {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .btn {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
     p {
-        margin-left: 0;
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
     }
 }
